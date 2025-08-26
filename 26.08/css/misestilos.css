@@ -1,0 +1,43 @@
+body {
+    background-color: #a8dadc;
+}
+
+.container {
+    background-color: #f1faee;
+}
+
+.row {
+    height: 33vh;
+}
+
+footer {
+    height: 34vh;
+}
+
+#uno {
+    background-color: #337357;
+    text-align: center;
+    color: #e4e3d3;
+    font-size: xx-large;
+
+}
+
+#dos {
+    background-color: #e4e3d3;
+}
+
+#tres {
+    background-color: #e27396;
+}
+
+#seis {
+    background-color: #e4e3d3;
+}
+
+#cinco {
+    background-color: #ea9ab2;
+}
+
+#cuatro {
+    background-color: #6d9f71;
+}
