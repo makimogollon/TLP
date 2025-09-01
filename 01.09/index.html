@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro a js</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <script> 
+
+        var nombre = ""
+        if(nombre == ""){
+            document.write("<h2>hola mundo!</h2>")
+        }
+        else{
+            document.write("<h2>hola " + nombre + "!</h2>")
+        }
+
+        //alert("hola soy una alerta")
+
+    </script> 
+    
+    <button onclick="document.write('hola desde boton')">Click!</button>
+    <button onclick="saludar()">Click!</button> <!-- forma correcta -->
+
+    <script src="js/script.js"> </script>
+
+    <h1 id="saludo"></h1>
+
+</body>
+</html>
