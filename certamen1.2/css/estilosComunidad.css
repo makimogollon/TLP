@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Urban";
+    src: url(../fonts/Urban\ Shadow\ Sans\ Serif.otf);
+}
+
+.card{
+    padding: 2vh;
+    margin: 3vh;
+    background-color: #f037a61e;
+    border-radius: 1vh;
+}
+
+.card h1{
+    text-align: center;
+    padding-top: 2vh;
+    font-family: "Urban";
+    color: #1E3163;
+}
+
+#comentario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#comentario button{
+    background-color: #2D46B9;
+}
+
+#nombreEstilo{
+    color:#1E3163;
+    font-weight: 700;
+}
+
+#comentarios ul{
+    align-items: center;
+    padding-left: 0;
+}
