@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Urban";
+    src: url(../fonts/Urban\ Shadow\ Sans\ Serif.otf);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario{
+    justify-items: center;
+    padding-bottom: 5%;
+}
+
+.card{
+    padding: 2vh;
+    margin: 3vh;
+    background-color: #f037a61e;
+}
+
+.card h1{
+    text-align: center;
+    padding-top: 2vh;
+    font-family: "Urban";
+    color: #1E3163;
+}
+
+#comentario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#comentario button{
+    background-color: #2D46B9;
+}
+
+#nombreEstilo{
+    color:#1E3163;
+    font-weight: 700;
+}
+
+#comentarios ul{
+    align-items: center;
+    padding-left: 0;
+}
+
+#comentarios ul {
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  gap: 2vh;
+  width: 100%;
+}
+
+#comentarios li {
+  display: flex;
+}
+
+
