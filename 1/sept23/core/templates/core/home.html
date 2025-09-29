@@ -1,0 +1,35 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio Django</title>
+    <link rel="stylesheet" href="{% static 'core/css/estilos.css'%}"></link>
+</head>
+
+<body>
+    <h1>{{ titulo }}</h1>
+    <hr>
+    {% include 'core/nav.html' %}
+    <p></p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magni nam molestias, ea iste recusandae. Officiis quidem excepturi magni deserunt dolorem accusantium, dignissimos iusto reiciendis pariatur, voluptate commodi, minima facere.
+    Et aut, cupiditate molestias dolor voluptates aliquam esse. Facere minima culpa ab alias voluptatem incidunt earum natus illum in sunt suscipit deleniti quam rerum, corrupti quidem ratione explicabo, consectetur quasi!
+    At, commodi vitae ut ipsam earum expedita sed enim inventore dicta quasi dignissimos iste laudantium nam, exercitationem provident, pariatur atque quo ab delectus doloribus! Officia voluptas hic dignissimos molestias rem?
+    
+    <hr>
+
+    <h1>Ventas</h1>
+
+    {% for producto in productos%}
+
+        <a href="">{{producto}}</a>
+        <br>
+
+    {% endfor %} <!-- hay una extension para cerrar el dtl de los for-->
+
+
+</body>
+
+</html>
